@@ -1,0 +1,24 @@
+body {
+    background-color: #b7c2cb;
+    color: #00223a;
+    font-family: 'Andale Mono', AndaleMono, monospace;
+    display: grid;
+    grid-template-areas: 
+        "head ."
+        "nav main";
+    grid-template-columns: 250px auto; 
+}
+
+header {
+    grid-area: head;
+    font-size: large;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+    max-width: 650px;
+}
