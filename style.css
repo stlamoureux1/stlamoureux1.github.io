@@ -30,6 +30,11 @@ a:hover {
     color: white;
 }
 
+a:visited {
+    color: #00223a;
+    text-decoration: none;
+}
+
 
 .toprow {
     opacity: 1;
