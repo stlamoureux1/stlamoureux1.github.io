@@ -26,15 +26,22 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: white;
-}
-
 a:visited {
     color: #00223a;
     text-decoration: none;
 }
 
+a:hover {
+    color: white;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+p a {
+    text-decoration: underline;
+}
 
 .toprow {
     opacity: 1;
@@ -58,7 +65,7 @@ a:visited {
 .column.main {
     /* background-color: cornflowerblue; */
     float: left;
-    width: 75%;
+    width: 65%;
 }
 
 li {
