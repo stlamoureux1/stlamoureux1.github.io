@@ -51,12 +51,12 @@ p a {
 }
 
 .column {
+    float: left;
     padding: 10px;
 }
 
 .column.sidenav {
     /* background-color: cadetblue; */
-    float: left;
     width: 25%;
     position: sticky;
     top: 10%;
@@ -64,16 +64,23 @@ p a {
 
 .column.main {
     /* background-color: cornflowerblue; */
-    float: left;
     width: 65%;
+    height: 100%;
+    overflow: auto;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 li {
     padding: 5px;
 }
 
-@media screen and (max-width:600px) {
-    .column.sidenav, .cloumn.main {
+@media only screen and (max-width:600px), only screen and (max-device-width:600px) {
+    .column.sidenav, .column.main {
         width:100%;
         position: relative;
     }
