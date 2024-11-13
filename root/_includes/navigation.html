@@ -1,0 +1,15 @@
+<div class="column sidenav">
+    <h3>
+        <a href="/">spencer lamoureux</a>
+    </h3>
+    <ul>
+    {% for item in site.data.navigation %}
+        <li>
+        <a href="{{ item.link }}"
+        {% if page.url == item.link %}class="current"{% endif %}>
+            {{ item.name }}
+        </a>
+        </li>
+    {% endfor %}
+    </ul>
+    </div>
