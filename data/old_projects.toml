@@ -1,0 +1,10 @@
+[projects]
+	[projects.1]
+		title = 'GraphTutor'
+		url = 'https://github.com/stlamoureux1/GraphTutor'
+		description = 'Past school project: A gui application for graph visualization in C++'
+    
+    [projects.2]
+		title = 'toy compiler'
+		url = 'https://github.com/cjvillar/cis_27_group_project'
+		description = 'Past school project: Contributed to front-end, AST, and visitor classes'

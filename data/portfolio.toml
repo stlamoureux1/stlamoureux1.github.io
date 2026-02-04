@@ -1,0 +1,10 @@
+[projects]
+	[projects.1]
+		title = 'ERF_ML'
+		url = 'https://github.com/stlamoureux1/ERF_ML'
+		description = 'AI surrogate models for thermal solvers in large scale fluid dynamics simulations'
+	
+	[projects.2]
+		title = 'lambda'
+		url = 'https://github.com/stlamoureux1/lambda'
+		description = 'Stack-based lambda calculus evaluator'

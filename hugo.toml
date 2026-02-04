@@ -1,0 +1,14 @@
+baseURL = 'https://stlamoureux1.github.io'
+languageCode = 'en-us'
+title = 'Spencer Lamoureux'
+
+theme = 'moonwalk'
+
+[menus]
+    [[menus.main]]
+        name = 'about'
+        pageRef = '/about'
+
+    [[menus.main]]
+        name = 'blog'
+        pageRef = '/blog'

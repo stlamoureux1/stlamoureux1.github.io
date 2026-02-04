@@ -1,0 +1,21 @@
+author = 'Spencer Lamoureux'
+
+[home]
+	date_format = '2006-01-02'
+	portfolio = true
+	blog = true
+	old_projects = true
+
+[blog]
+	date_format = '2006-01-02'
+	[blog.posts]
+		date_format = ':date_long'
+
+[socials]
+	[socials.1]
+		title = 'github'
+		url = 'https://github.com/stlamoureux1'
+
+	[socials.2]
+		title = 'linkedin'
+		url = 'https://www.linkedin.com/in/spencer-lamoureux-9a616451/'

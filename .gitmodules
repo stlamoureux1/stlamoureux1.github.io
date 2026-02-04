@@ -1,0 +1,3 @@
+[submodule "themes/moonwalk"]
+	path = themes/moonwalk
+	url = https://github.com/ArkhamCookie/moonwalk-hugo.git
