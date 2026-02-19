@@ -12,4 +12,4 @@ Programmer, researcher, life-long learner.
 - Compilers, languages, types & lambdas
 
 ### Current work
-Independent research assistant to [Greg Parker, UC Berkeley](https://math.berkeley.edu/people/greg-j-parker). Working on low-rank tensor approximations for kinetic neutral modeling in tokamak edge plasmas.
+Assisting [Greg Parker, UC Berkeley](https://math.berkeley.edu/people/greg-j-parker) in his work on low-rank tensor approximations for kinetic neutral modeling in tokamak edge plasmas.
