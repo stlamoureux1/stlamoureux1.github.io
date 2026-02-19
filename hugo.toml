@@ -12,3 +12,8 @@ theme = 'moonwalk'
     [[menus.main]]
         name = 'blog'
         pageRef = '/blog'
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            passthrough = { enable = true, delimiters = { block = [['$$', '$$']], inline = [['$', '$']] } }
