@@ -7,9 +7,9 @@ title = 'Home'
 Programmer, researcher, life-long learner. 
 
 ### Key interests
-- High-performance computing
-- Numerical analysis & applied math
 - Compilers, languages, types & lambdas
+- Numerical analysis & applied math
+- High-performance computing
 
 ### Current work
 Assisting [Greg Parker, UC Berkeley](https://math.berkeley.edu/people/greg-j-parker) in his work on low-rank tensor approximations for kinetic neutral modeling in tokamak edge plasmas.
